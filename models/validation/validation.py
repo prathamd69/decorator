@@ -7,6 +7,10 @@ from io import BytesIO
 
 
 class ReportValidator:
+
+    def __init__(self, image_url):
+        self.image_url = image_url
+
     
     def generate_caption(self, image_url,device='cuda' if torch.cuda.is_available() else 'cpu'):
         

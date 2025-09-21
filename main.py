@@ -7,7 +7,7 @@ def main():
     description = input("Enter the description of the issue: ")
 
     validator = ReportValidator(image_url)
-    router = CivicIssueRouter("categories.json", "departments.json")
+    router = ReportRouter("categories.json", "departments.json")
 
     is_valid = validator.validate(image_url, description)
 
