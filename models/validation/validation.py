@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer, util
 from io import BytesIO
 
 
-class ImageCaptionValidator:
+class ReportValidator:
     
     def generate_caption(self, image_url,device='cuda' if torch.cuda.is_available() else 'cpu'):
         
