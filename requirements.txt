@@ -1,0 +1,5 @@
+transformers
+torch
+PIL
+requests
+sentence_transformers

@@ -1,5 +1,5 @@
-from models.validation import ReportValidator
-from models.classification import ReportRouter
+from models.validation.validation import ReportValidator
+from models.classification.classification import ReportRouter
 
 def main():
 
@@ -17,3 +17,6 @@ def main():
     
     else:
         print("Complaint is invalid.")
+
+if __name__ == "__main__":
+    main()
