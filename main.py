@@ -1,5 +1,5 @@
-from models.validation.validation import ReportValidator
-from models.classification.classification import ReportRouter
+from models.validation import ReportValidator
+from models.classification import ReportRouter
 
 def main():
 
