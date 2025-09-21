@@ -11,6 +11,15 @@ def main():
 
     # Prompt user for image URL and issue description
     # Later this will fetch data from database
+
+    print("\n")
+    print("\n")
+    print("\n")
+    print("*"*120)
+    print("-"*120)
+    print("\n")
+    print("\n")
+    print("Enter the details of the issue:")
     image_url = input("Enter the image URL: ")
     description = input("Enter the description of the issue: ")
 
@@ -19,14 +28,19 @@ def main():
     router = ReportRouter("categories.json", "departments.json")
 
     # Validate the report (image and description similarity)
+    print("\n")
+    print("\n")
+    print("\n")
+    print("-"*120)
     is_valid = validator.validate(image_url, description)
 
     if is_valid:
         # If valid, classify and route the report
+        print("\n")
+        print("\n")
+        print("\n")
+        print("-"*120)
         assigned = router.classify_and_route(description)
-        print("*"*50)
-        print("-"*50)
-        print("-"*50)
         print(assigned)
     else:
         # If invalid, notify the user
