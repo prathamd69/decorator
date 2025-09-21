@@ -1,0 +1,17 @@
+{
+  "garbage dumps": "Municipal Sanitation Department",
+  "overflowing garbage": "Municipal Sanitation Department",
+  "contaminated water": "Water Supply Department",
+  "drainage": "Public Works Department",
+  "pothole": "Road Maintenance Department",
+  "broken sideways": "Road Maintenance Department",
+  "damaged traffic signals": "Traffic Police Department",
+  "broken street signs or railings": "Road Maintenance Department",
+  "exposed hazardous electrical wires": "Electricity Board",
+  "streetlight": "Electricity Board",
+  "dead animal removal": "Animal Control Unit",
+  "tree fall": "Horticulture / Forest Department",
+  "maintenance of public parks and gardens": "Horticulture / Forest Department",
+  "leaking pipelines": "Water Supply Department",
+  "unsanitary public toilets": "Health & Hygiene Department"
+}
